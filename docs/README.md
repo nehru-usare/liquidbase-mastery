@@ -11,3 +11,4 @@ It covers what Liquibase is, how it integrates with Spring Boot, best practices,
 3. [Spring Boot Integration](03-spring-boot-integration.md) - How Liquibase works seamlessly with Spring Boot applications.
 4. [Best Practices](04-best-practices.md) - Idempotency, naming conventions, and workflow tips.
 5. [Architectural Patterns](05-architectural-patterns.md) - For Tech Leads and Architects: CI/CD, Zero-downtime deployments, Multi-tenancy, and distributed execution.
+6. [ChangeLog Formats (XML, YAML, JSON, SQL)](06-changelog-formats.md) - Explains how different changelog formats work behind the scenes.
