@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: v5-example-rollback
+      author: developer
+      changes:
+        - addColumn:
+            tableName: users
+            columns:
+              - column:
+                  name: temp_column
+                  type: VARCHAR(50)
+      rollback:
+        - dropColumn:
+            tableName: users
+            columnName: temp_column

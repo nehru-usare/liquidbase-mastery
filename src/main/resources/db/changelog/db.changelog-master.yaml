@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changesets/v1-create-users.yaml
+  - include:
+      file: db/changelog/changesets/v2-add-email.yaml
+  - include:
+      file: db/changelog/changesets/v3-add-created-at.yaml
+  - include:
+      file: db/changelog/changesets/v4-add-index.yaml
+  - include:
+      file: db/changelog/changesets/v5-example-rollback.yaml

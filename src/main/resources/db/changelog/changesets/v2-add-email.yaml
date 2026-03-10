@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: v2-add-email
+      author: developer
+      changes:
+        - addColumn:
+            tableName: users
+            columns:
+              - column:
+                  name: email
+                  type: VARCHAR(150)
+                  constraints:
+                    nullable: false
+                    unique: true
